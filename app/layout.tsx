@@ -1,4 +1,3 @@
-import type { Metadata } from "next";
 import { Nunito } from "next/font/google";
 
 import Navbar from "@/components/navbar/Navbar";
@@ -14,7 +13,7 @@ import SearchModal from "@/components/modals/SearchModal";
 
 const font = Nunito({ subsets: ["latin"] });
 
-export const metadata: Metadata = {
+export const metadata = {
   title: "Airbnb",
   description: "Airbnb Clone",
 };
